@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ── COUNTDOWN ────────────────────────────────
     function startCountdown() {
         function tick() {
-            const target = new Date('2026-05-02T18:00:00').getTime();
+            const target = new Date('2026-07-16T19:00:00').getTime();
             const now    = Date.now();
             const diff   = Math.max(0, target - now);
 
